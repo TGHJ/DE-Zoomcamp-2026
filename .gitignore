@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# AWS CLI installer
+awscliv2.zip
+
+# GCP service account key
+bitcoin-onchain-etl-eb1c9a6608ad.json
